@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100vh;
+  background-color: bisque;
+  position: relative;
+  font-family: sans-serif;
+  z-index: -1;
+}
+header .chair {
+  height: 80vh;
+  position: absolute;
+  top: 90%;
+  right: 20%;
+  transform: translate(-20%, -90%);
+}
+header .small-rose {
+  height: 15vh;
+  position: absolute;
+  top: 40%;
+  right: 15%;
+}
+header .big-rose {
+  height: 25vh;
+  position: absolute;
+  top: 16%;
+  right: 55%;
+}
+header .description {
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  color: rgb(159, 23, 23);
+}
+header .description h1 {
+  font-size: 3rem;
+}
+header .description h2 {
+  font-size: 2rem;
+}
+
+section {
+  height: 100vh;
+  background-color: rgb(159, 23, 23);
+  color: bisque;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
